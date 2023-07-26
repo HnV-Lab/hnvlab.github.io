@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -10,7 +10,7 @@ import Modal from './Modal';
 import Test from "../pages/Test";
 import Papers from "../pages/Papers";
 
-=======
+// =======
 //1번째
 // function Home() {
 //     return (
@@ -139,7 +139,7 @@ import 'slick-carousel/slick/slick-theme.css';
 // import Popup from '../components/Popup';
 
 import Modal from './Modal';
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
+// >>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
 
 const papers = [
   {
@@ -210,17 +210,14 @@ const Home = () => {
 
   return (
     <div className="home">
-<<<<<<< HEAD
       <h1>Human and Vision Lab</h1>
-=======
       <h1>첫번째 실험</h1>
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
       <Slider {...settings}>
         <div>
           <img src="img/2.jpg" alt="Image 1" style={{ display: 'block', margin: '0 auto' }} width="600" />
         </div>
         <div style={{ textAlign: 'center' }}>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
           <img src="img/paper.jpg" alt="Image 2" style={{ display: 'block', margin: '0 auto' }} />
         </div>
         <div>
@@ -229,7 +226,7 @@ const Home = () => {
       </Slider>
 
       {<Test />}
-=======
+{/* ======= */}
           <img src="img/cat.jpg" alt="Image 2" style={{ display: 'block', margin: '0 auto' }} />
         </div>
         <div>
@@ -238,16 +235,16 @@ const Home = () => {
       </Slider>
 
 
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
+// >>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
 
 
         <div>
           <br />
           <h1>Article</h1>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD
           
 =======
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
+>>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865 */}
           <br />
           {papers.map((paper) => (
             <div key={paper.id}>
@@ -256,22 +253,19 @@ const Home = () => {
                 <p>Authors: {paper.authors}</p>
                 <p>Publication: {paper.publication}</p>
               </div>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
             
             </div>
             
-=======
+// =======
             </div>
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
+// >>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
           ))}
           {modalVisible && (
             <Modal visible={modalVisible} closable={true} maskClosable={true} onClose={closeModal}></Modal>
           )}
       </div>
-<<<<<<< HEAD
       {/* {<Papers />} */}
-=======
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
     </div>
   );
 };

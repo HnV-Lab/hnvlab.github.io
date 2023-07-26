@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+// <<<<<<< HEAD
+// =======
 // Profiler.const   
 // 서울특별시 화랑로 815 삼육대학교 제1실습관
 
@@ -64,7 +64,7 @@
 // export default Contact;
 
 //3번째
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
+// >>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
 import React from 'react';
 import styles from "./Contact.module.css"
 
@@ -117,7 +117,7 @@ function Contact() {
 }
 
 export default Contact;
-<<<<<<< HEAD
-=======
+// <<<<<<< HEAD
+// =======
 
->>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865
+// >>>>>>> d0700c99b52bf1719971e213fed5c091f35d3865

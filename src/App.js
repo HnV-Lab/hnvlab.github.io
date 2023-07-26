@@ -14,6 +14,9 @@ import Papers from "./pages/Papers";
 import Photo from "./pages/Photo";
 import Contact from "./pages/Contact";
 import Test from "./pages/Test"
+import Members1 from "./pages/Members1";
+import Members2 from "./pages/Members2";
+import Members3 from "./pages/Members3";
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/members" element={<Members />} />
+        <Route path="/members1" element={<Members1 />} />
+        <Route path="/members2" element={<Members2 />} />
+        <Route path="/members3" element={<Members3 />} />
         <Route path="/papers" element={<Papers />} />
         <Route path="/photo" element={<Photo />} />
         <Route path="/contact" element={<Contact />} />
