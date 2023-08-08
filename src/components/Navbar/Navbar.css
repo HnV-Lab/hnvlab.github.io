@@ -1,5 +1,6 @@
 .Navbar {
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(73, 63, 252, 1) 100%);
+    /* background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(73, 63, 252, 1) 100%); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,4 +140,9 @@ body {
     Button {
         display: none;
     }
+}
+
+/* Human and Vision 밑에 보라색줄 제거 */
+a {
+    text-decoration: none;
 }

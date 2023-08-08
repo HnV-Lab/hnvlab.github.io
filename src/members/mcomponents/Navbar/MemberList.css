@@ -1,0 +1,70 @@
+.box {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  grid-gap: 5px; 
+  text-align: center;
+  white-space: pre-line
+  
+}
+
+
+.box .avatar{
+margin-top: 30px;
+align-self: center;
+
+height: 100%; 
+margin-bottom: 10px;
+margin:0 auto;
+width: 100%; /* 그리드 아이템 너비를 100%로 설정 */
+max-width: 400px; 
+}
+
+
+.avatar img{
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+
+
+}
+
+
+.avatar .context{
+  font-weight: bold;
+  border-radius: 3%;
+  width: 400px;
+  height: 300px;
+  margin-top: -50px;
+  box-shadow: 5px 5px 15px 5px rgba(41, 29, 29, 0.2);
+
+  justify-content: center;
+  align-items: center; 
+  
+  
+}
+.avatar .context .title{ 
+  border-bottom: 1px solid #c5bcbc;
+  margin:0 30px;
+}
+.avatar .context p{
+  margin-top: 5px;
+  color:rgb(90, 87, 87);
+  font-size: 20px;
+  font-size: 15px;
+  color: #848484;
+  line-height: 26px;
+  font-weight: 400;
+  background: #fff;
+
+  
+}
+
+
+
+
+
+

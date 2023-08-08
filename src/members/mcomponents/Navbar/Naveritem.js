@@ -10,18 +10,13 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Photo',
-        url: '/photo',
-        cName: 'nav-links'
-    },
-    {
         title: 'Papers',
         url: '/papers',
         cName: 'nav-links'
     },
     {
-        title: 'Contact us',
-        url: '/contact',
+        title: 'Photo',
+        url: '/photo',
         cName: 'nav-links'
     }
 ]

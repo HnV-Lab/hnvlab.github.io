@@ -1,0 +1,45 @@
+  .homeone_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width:1500px;
+    margin:0 auto;
+  
+  
+  }
+  
+  .left_column {
+    flex: 1;
+    background-color: #f0f0f0; 
+    border-radius: 2%;
+    margin-top: 100px;
+    min-width: 300px;
+    position: sticky;
+    top: 200px; 
+    height: 710px;
+    overflow-y: auto; 
+  
+  }
+  /* .left-column div{
+  
+  } */
+  
+  .right_column {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+  
+  
+  }
+  .small_box{
+    box-shadow: 5px 5px 15px 5px rgba(41, 29, 29, 0.2);
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 3%;
+  
+  
+  }
+  .award_box{   box-shadow: 5px 5px 15px 5px rgba(41, 29, 29, 0.2);
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 3%;}
